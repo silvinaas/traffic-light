@@ -7,7 +7,7 @@ const semaforo = () => {
 			<div className="palito"></div>
 			<div className="semaforo">
 				<div
-					className={"rojo" + on == "rojo" ? "prendido" : ""} //aca poner operador ternario:
+					className={"rojo" + (on == "rojo" ? " prendido" : "")} //aca poner operador ternario:
 					onClick={() => {
 						setEncendido("rojo");
 					}}></div>

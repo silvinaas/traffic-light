@@ -9,11 +9,13 @@ const semaforo = () => {
 		<div className="container">
 			<div className="palito"></div>
 			<div className="semaforo">
-				<div className="rojo" onClick={encenderApagar}></div>
+				<div className={"luz rojo" onClick={()encenderApagar}></div>
 				<div
-					className="amarillo"
+					className="luz amarillo"
 					onClick={() => setEncendido(true)}></div>
-				<div className="verde" onClick={() => setEncendido(true)}></div>
+				<div
+					className="luz verde"
+					onClick={() => setEncendido(true)}></div>
 			</div>
 		</div>
 	);

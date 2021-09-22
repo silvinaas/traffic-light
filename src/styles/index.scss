@@ -30,46 +30,30 @@
     background: black;
 width: 80px;
 height: 200px;
-border-radius: 5%;
+border-radius: 10px;
 margin: auto;
+padding: 7px;
 align-items: center;
 position: relative;
 
 
 }
 
-.rojo{
-    background: red;
+
+.luz{
+    
     width: 60px;
 height: 60px;
 border-radius: 100%;
 margin-left: auto;
 margin-right: auto;
-padding-top: 5px;
+padding: 5px;
+cursor: pointer;
+&.rojo{background: red;}
+&.amarillo{background: yellow;}
+&.verde{background: green;}
+&.brillo{ box-shadow: 0 0 40px rgb(192, 189, 34), 0 0 15px rgb(192, 189, 34);}
 }
 
-.amarillo{
-    background: yellow;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5px;
-   
-	
-}
 
-.verde{
-    background: green;
-    width: 60px;
-    height: 60px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 5px;
-}
 
-.brillo{
-    box-shadow: 0 0 40px rgb(192, 189, 34), 0 0 15px rgb(192, 189, 34);
-}
